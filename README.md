@@ -18,9 +18,8 @@ ServiceMesh integrates with multiple monitoring and infrastructure management to
 
 ## 🎬 Demo
 
-<div align="center">
-  <img src="docs/images/dashboard-demo.gif" alt="Dashboard Demo" width="80%">
-</div>
+
+![{766D7B58-E841-4019-BE6D-DADE314D3D3B}](https://github.com/user-attachments/assets/022339c8-f0b5-404d-bdeb-0b793eaa3009)
 
 ## ✨ Features
 

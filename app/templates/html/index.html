@@ -221,15 +221,39 @@
           <div class="endpoint-card">
             <h2 class="endpoint-title">API Documentation</h2>
             <p>Comprehensive guide to endpoints</p>
-            <a href="/docs">View Documentation →</a>
+            <a id="docs-link" href="/docs">View Documentation →</a>
           </div>
 
           <div class="endpoint-card">
             <h2 class="endpoint-title">API Endpoints</h2>
             <p>Direct access to API endpoints and resources</p>
-            <a href="/api/v1">Access API →</a>
+            <a disabled href="/api/v1">Access API →</a>
           </div>
         </div>
+        
+        <script>
+          // Check if we're on GitHub Pages
+          document.addEventListener('DOMContentLoaded', function() {
+            const docsLink = document.getElementById('docs-link');
+            if (window.location.hostname.includes('jasonpaulraj.my')) {
+              // On GitHub Pages, link to the custom Swagger UI
+              docsLink.href = 'swagger_doc.html';
+              
+              // Also update the swagger_doc.html to use a relative path for openapi.json
+              if (window.location.pathname.includes('swagger_doc.html')) {
+                const ui = SwaggerUIBundle({
+                  url: "openapi.json",  // Use relative path on GitHub Pages
+                  dom_id: "#swagger-ui",
+                  presets: [
+                    SwaggerUIBundle.presets.apis,
+                    SwaggerUIBundle.SwaggerUIStandalonePreset,
+                  ],
+                  layout: "BaseLayout"
+                });
+              }
+            }
+          });
+        </script>
       </div>
     </div>
   </body>

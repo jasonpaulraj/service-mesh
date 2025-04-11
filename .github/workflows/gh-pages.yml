@@ -25,11 +25,18 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Create build directory
-        run: mkdir -p build
+      - name: Create build directory structure
+        run: |
+          mkdir -p build
+          mkdir -p build/static
 
       - name: Copy index.html to build directory
         run: cp app/templates/html/index.html build/index.html
+
+      - name: Copy static files
+        run: |
+          cp -r app/templates/static/* build/static/
+          ls -la build/static
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

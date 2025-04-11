@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ServiceMesh</title>
+    <!-- Favicon Section -->
+    <link rel="icon" type="image/x-icon" href="static/service-mesh-gradient.ico">
+    <meta name="theme-color" content="#0a0a0a">
+    <!-- End Favicon Section -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RPNFJEMEF7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RPNFJEMEF7');
+    </script>
+    <style>
+      :root {
+        --primary: #00bfff;
+        --secondary: #ff00ff;
+        --accent: #800080;
+        --background: #0a0a0a;
+        --card-bg: rgba(255, 255, 255, 0.05);
+        --text: #ffffff;
+        --transition: all 0.3s ease;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: var(--background);
+        background-image: radial-gradient(
+            circle at 25% 25%,
+            rgba(0, 191, 255, 0.1) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 75% 75%,
+            rgba(255, 0, 255, 0.1) 0%,
+            transparent 50%
+          );
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        color: var(--text);
+        line-height: 1.6;
+        padding: 2rem;
+      }
+
+      .container {
+        max-width: 1000px;
+        width: 100%;
+      }
+
+      .content {
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-between; /* Align items to far left and far right */
+        align-items: center;
+        text-align: left; /* Align text to the left */
+        padding: 3rem;
+        background: var(--card-bg);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      }
+
+      .image-container {
+        flex: 1; /* Allow image container to take up space */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image-container img {
+        width: 15rem; /* Enlarge the image */
+        height: auto;
+      }
+
+      .text-container {
+        flex: 2; /* Allow text container to take up more space */
+        margin-left: 2rem; /* Add space between image and text */
+      }
+
+      .description {
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        background: linear-gradient(
+          90deg,
+          var(--primary),
+          var(--secondary),
+          var(--accent)
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+      }
+
+      .description {
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+      }
+
+      .endpoints {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .endpoint-card {
+        background: var(--card-bg);
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: var(--transition);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .endpoint-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary);
+        box-shadow: 0 15px 30px rgba(0, 191, 255, 0.2);
+      }
+
+      .endpoint-title {
+        font-size: 1.5rem;
+        color: var(--primary);
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+
+      a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+        transition: var(--transition);
+        position: relative;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        background: rgba(0, 191, 255, 0.1);
+        display: inline-block;
+        margin-top: 1rem;
+      }
+
+      a:hover {
+        background: rgba(0, 191, 255, 0.2);
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 1rem;
+        }
+
+        .content {
+          padding: 2rem 1rem;
+          flex-direction: column; /* Stack items vertically */
+          text-align: center; /* Center all text */
+        }
+
+        .image-container {
+          margin-bottom: 2rem; /* Add space between image and text */
+        }
+
+        .text-container {
+          margin-left: 0; /* Remove left margin since items are stacked */
+        }
+
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        .description {
+          text-align: center; /* Center the description text */
+        }
+
+        .endpoints {
+          grid-template-columns: 1fr;
+        }
+        
+        .endpoint-card {
+          text-align: center; /* Ensure cards are centered */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img src="static/service-mesh-gradient.svg" alt="ServiceMesh Logo">
+        </div>
+        <div class="text-container">
+          <h1>ServiceMesh</h1>
+          <p class="description">
+            An API for monitoring and managing your homelab infrastructure
+          </p>
+
+        <div class="endpoints">
+          <div class="endpoint-card">
+            <h2 class="endpoint-title">API Documentation</h2>
+            <p>Comprehensive guide to endpoints</p>
+            <a href="/docs">View Documentation →</a>
+          </div>
+
+          <div class="endpoint-card">
+            <h2 class="endpoint-title">API Endpoints</h2>
+            <p>Direct access to API endpoints and resources</p>
+            <a href="/api/v1">Access API →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

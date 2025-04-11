@@ -1,0 +1,37 @@
+[project]
+name = "service-mesh"
+version = "1.0.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "email-validator>=2.2.0",
+    "fastapi>=0.115.12",
+    "flask>=3.1.0",
+    "flask-sqlalchemy>=3.1.1",
+    "grafana-client>=4.3.2",
+    "gunicorn>=23.0.0",
+    "prometheus-api-client>=0.5.7",
+    "proxmoxer>=2.2.0",
+    "psycopg2-binary>=2.9.10",
+    "pydantic-settings>=2.8.1",
+    "pydantic>=2.11.2",
+    "uptime-kuma-api>=1.2.1",
+    "uvicorn[standard]>=0.34.0",
+    "asgiref>=3.8.1",
+    "alembic>=1.15.2",
+    "sqlalchemy>=2.0.40",
+    "mysql-connector-python>=9.2.0",
+    "pymysql>=1.1.1",
+    "aiomysql>=0.2.0",
+    "passlib[bcrypt]>=1.7.4",
+    "python-jose[cryptography]>=3.3.0",
+    "python-multipart>=0.0.9",  
+    "bcrypt>=4.0.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["app"]

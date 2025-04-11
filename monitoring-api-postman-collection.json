@@ -1,0 +1,587 @@
+{
+  "info": {
+    "name": "ServiceMesh API",
+    "description": "A collection of API endpoints for the ServiceMesh API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "health"]
+            },
+            "description": "Check the health of the API"
+          },
+          "response": []
+        }
+      ],
+      "description": "Health check endpoints"
+    },
+    {
+      "name": "Service Credentials",
+      "item": [
+        {
+          "name": "Get All Credentials",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/credentials?skip=0&limit=100",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "credentials"],
+              "query": [
+                {
+                  "key": "skip",
+                  "value": "0",
+                  "description": "Number of records to skip"
+                },
+                {
+                  "key": "limit",
+                  "value": "100",
+                  "description": "Maximum number of records to return"
+                }
+              ]
+            },
+            "description": "List all service credentials with pagination"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Credential by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/credentials/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "credentials", "1"]
+            },
+            "description": "Get a specific credential by its ID"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Credentials by Service Type",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/credentials/service/uptime_kuma?is_default=true",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "credentials", "service", "uptime_kuma"],
+              "query": [
+                {
+                  "key": "is_default",
+                  "value": "true",
+                  "description": "Whether to retrieve only the default credential"
+                }
+              ]
+            },
+            "description": "Get service credentials by service type"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Credential",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"My Uptime Kuma\",\n  \"service_type\": \"uptime_kuma\",\n  \"url\": \"http://uptime-kuma.example.com\",\n  \"username\": \"admin\",\n  \"password\": \"password\",\n  \"verify_ssl\": true,\n  \"is_default\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/credentials",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "credentials"]
+            },
+            "description": "Create a new service credential"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Credential",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Updated Uptime Kuma\",\n  \"url\": \"http://updated-uptime-kuma.example.com\",\n  \"is_default\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/credentials/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "credentials", "1"]
+            },
+            "description": "Update an existing service credential"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Credential",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/credentials/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "credentials", "1"]
+            },
+            "description": "Delete a service credential"
+          },
+          "response": []
+        }
+      ],
+      "description": "API endpoints for managing service credentials"
+    },
+    {
+      "name": "Uptime Kuma",
+      "item": [
+        {
+          "name": "Get Monitors",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/uptime-kuma/monitors",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "uptime-kuma", "monitors"]
+            },
+            "description": "List all Uptime Kuma monitors"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Monitor by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/uptime-kuma/monitors/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "uptime-kuma", "monitors", "1"]
+            },
+            "description": "Get a specific Uptime Kuma monitor by ID"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Monitor",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"API Monitor\",\n  \"type\": \"http\",\n  \"url\": \"https://example.com/api\",\n  \"interval\": 60,\n  \"retryInterval\": 30\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/uptime-kuma/monitors",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "uptime-kuma", "monitors"]
+            },
+            "description": "Create a new Uptime Kuma monitor"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Status Pages",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/uptime-kuma/status-pages",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "uptime-kuma", "status-pages"]
+            },
+            "description": "List all Uptime Kuma status pages"
+          },
+          "response": []
+        }
+      ],
+      "description": "API endpoints for Uptime Kuma integration"
+    },
+    {
+      "name": "Prometheus",
+      "item": [
+        {
+          "name": "Query Prometheus",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/prometheus/query?query=up&time=2023-01-01T00:00:00Z",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "prometheus", "query"],
+              "query": [
+                {
+                  "key": "query",
+                  "value": "up",
+                  "description": "Prometheus query string"
+                },
+                {
+                  "key": "time",
+                  "value": "2023-01-01T00:00:00Z",
+                  "description": "Evaluation timestamp"
+                }
+              ]
+            },
+            "description": "Execute a Prometheus query"
+          },
+          "response": []
+        },
+        {
+          "name": "Query Range",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/prometheus/query-range?query=rate(node_cpu_seconds_total{mode='system'}[5m])&start=2023-01-01T00:00:00Z&end=2023-01-01T01:00:00Z&step=15s",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "prometheus", "query-range"],
+              "query": [
+                {
+                  "key": "query",
+                  "value": "rate(node_cpu_seconds_total{mode='system'}[5m])",
+                  "description": "Prometheus query string"
+                },
+                {
+                  "key": "start",
+                  "value": "2023-01-01T00:00:00Z",
+                  "description": "Start timestamp"
+                },
+                {
+                  "key": "end",
+                  "value": "2023-01-01T01:00:00Z",
+                  "description": "End timestamp"
+                },
+                {
+                  "key": "step",
+                  "value": "15s",
+                  "description": "Query resolution step width"
+                }
+              ]
+            },
+            "description": "Execute a Prometheus range query"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Alerts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/prometheus/alerts",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "prometheus", "alerts"]
+            },
+            "description": "Get current alerts from Prometheus"
+          },
+          "response": []
+        },
+        {
+          "name": "List Metrics",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/prometheus/metrics?match=node_*",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "prometheus", "metrics"],
+              "query": [
+                {
+                  "key": "match",
+                  "value": "node_*",
+                  "description": "Regex match for metric names"
+                }
+              ]
+            },
+            "description": "List available metrics in Prometheus"
+          },
+          "response": []
+        }
+      ],
+      "description": "API endpoints for Prometheus integration"
+    },
+    {
+      "name": "Grafana",
+      "item": [
+        {
+          "name": "Get Dashboards",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/grafana/dashboards?folder_id=0",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "grafana", "dashboards"],
+              "query": [
+                {
+                  "key": "folder_id",
+                  "value": "0",
+                  "description": "Folder ID"
+                }
+              ]
+            },
+            "description": "List all Grafana dashboards"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Dashboard by UID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/grafana/dashboards/abc123",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "grafana", "dashboards", "abc123"]
+            },
+            "description": "Get a specific Grafana dashboard by UID"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Dashboard",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"dashboard\": {\n    \"id\": null,\n    \"uid\": null,\n    \"title\": \"Production Overview\",\n    \"tags\": [\"templated\"],\n    \"timezone\": \"browser\",\n    \"schemaVersion\": 16,\n    \"version\": 0,\n    \"refresh\": \"25s\"\n  },\n  \"folderId\": 0,\n  \"overwrite\": false\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/grafana/dashboards",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "grafana", "dashboards"]
+            },
+            "description": "Create a new Grafana dashboard"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Folders",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/grafana/folders",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "grafana", "folders"]
+            },
+            "description": "List all Grafana folders"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Folder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Production Dashboards\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/grafana/folders",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "grafana", "folders"]
+            },
+            "description": "Create a new Grafana folder"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Datasources",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/grafana/datasources",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "grafana", "datasources"]
+            },
+            "description": "List all Grafana datasources"
+          },
+          "response": []
+        }
+      ],
+      "description": "API endpoints for Grafana integration"
+    },
+    {
+      "name": "Proxmox",
+      "item": [
+        {
+          "name": "Get Nodes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/nodes",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "nodes"]
+            },
+            "description": "List all Proxmox nodes"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Node Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/nodes/node1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "nodes", "node1"]
+            },
+            "description": "Get details about a specific Proxmox node"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Cluster Overview",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/cluster/overview",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "cluster", "overview"]
+            },
+            "description": "Get an overview of the Proxmox cluster"
+          },
+          "response": []
+        },
+        {
+          "name": "Get VMs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/vms?node=node1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "vms"],
+              "query": [
+                {
+                  "key": "node",
+                  "value": "node1",
+                  "description": "Node name"
+                }
+              ]
+            },
+            "description": "List all VMs on a Proxmox node"
+          },
+          "response": []
+        },
+        {
+          "name": "Get VM Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/nodes/node1/vms/100",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "nodes", "node1", "vms", "100"]
+            },
+            "description": "Get details about a specific VM"
+          },
+          "response": []
+        },
+        {
+          "name": "Create VM",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"node\": \"node1\",\n  \"vmid\": 101,\n  \"name\": \"test-vm\",\n  \"memory\": 1024,\n  \"cores\": 2,\n  \"ostype\": \"l26\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/vms",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "vms"]
+            },
+            "description": "Create a new VM on a Proxmox node"
+          },
+          "response": []
+        },
+        {
+          "name": "Start VM",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/nodes/node1/vms/100/start",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "nodes", "node1", "vms", "100", "start"]
+            },
+            "description": "Start a VM"
+          },
+          "response": []
+        },
+        {
+          "name": "Stop VM",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/v1/proxmox/nodes/node1/vms/100/stop",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "v1", "proxmox", "nodes", "node1", "vms", "100", "stop"]
+            },
+            "description": "Stop a VM"
+          },
+          "response": []
+        }
+      ],
+      "description": "API endpoints for Proxmox integration"
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:6000",
+      "type": "string",
+      "description": "Base URL for the API"
+    }
+  ]
+}

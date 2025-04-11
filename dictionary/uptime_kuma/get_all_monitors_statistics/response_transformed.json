@@ -1,0 +1,5380 @@
+{
+  "uptime_kuma_info": {
+    "version": "1.23.13",
+    "latest_version": "1.23.16",
+    "is_container": true,
+    "primary_base_url": "-",
+    "server_timezone": "Asia/Kuala_Lumpur",
+    "server_timezone_offset": "+08:00",
+    "database_size": {
+      "size": 50737152
+    },
+    "database_size_gb": 0.05
+  },
+  "monitors": [
+    {
+      "id": 1,
+      "name": "Reddit",
+      "url": "https://reddit.com",
+      "type": "http",
+      "description": "-",
+      "method": "GET",
+      "status": 1,
+      "active": true,
+      "maintenance": false,
+      "interval": 60,
+      "timeout": 48,
+      "avg_ping": 1630,
+      "avg_ping_calculated": 5064.088571428571,
+      "uptime": {
+        "24h": 0.9957003547801843,
+        "24h_percent": 99.57,
+        "720h": 0.07965484292365331,
+        "720h_percent": 7.97,
+        "24h_quality": "good",
+        "720h_quality": "poor"
+      },
+      "cert_info": {
+        "valid": true,
+        "subject_cn": "*.reddit.com",
+        "subject_c": "US",
+        "subject_st": "California",
+        "subject_l": "San Francisco",
+        "subject_o": "REDDIT, INC.",
+        "issuer_cn": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "issuer_c": "US",
+        "issuer_o": "DigiCert Inc",
+        "subject_alt_name": "DNS:*.reddit.com, DNS:reddit.com",
+        "info_access": {
+          "OCSP - URI": ["http://ocsp.digicert.com"],
+          "CA Issuers - URI": [
+            "http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt"
+          ]
+        },
+        "valid_from": "-",
+        "valid_to": "-",
+        "days_remaining": "-",
+        "fingerprint": "76:33:DD:F4:53:77:D0:49:50:27:5E:80:2D:A1:C2:75:34:0C:F2:3D",
+        "serial_number": "046B49B513EE7ACF6678F923AC52703E",
+        "signature_algorithm": "-",
+        "expiry_status": "-"
+      },
+      "recent_heartbeats": [
+        {
+          "id": 323904,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:41:31.379",
+          "msg": "200 - OK",
+          "ping": 1869,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323906,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:42:33.250",
+          "msg": "200 - OK",
+          "ping": 856,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323908,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:43:34.110",
+          "msg": "200 - OK",
+          "ping": 1638,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323910,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:44:35.751",
+          "msg": "200 - OK",
+          "ping": 1180,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323912,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:45:36.935",
+          "msg": "200 - OK",
+          "ping": 1641,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323914,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:46:38.580",
+          "msg": "200 - OK",
+          "ping": 1701,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323916,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:47:40.283",
+          "msg": "200 - OK",
+          "ping": 1656,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323918,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:48:41.942",
+          "msg": "200 - OK",
+          "ping": 1149,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323920,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:49:43.095",
+          "msg": "200 - OK",
+          "ping": 1638,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": 323922,
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 17:50:44.737",
+          "msg": "200 - OK",
+          "ping": 1684,
+          "duration": 61,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "poor"
+        }
+      ],
+      "heartbeats_count": 100,
+      "important_heartbeats": [
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 15:35:09.224",
+          "msg": "200 - OK",
+          "ping": 1719,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-08 15:34:09.184",
+          "msg": "getaddrinfo ENOTFOUND www.reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 11:34:53.895",
+          "msg": "200 - OK",
+          "ping": 2429,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-08 11:33:53.877",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 62,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 10:35:19.812",
+          "msg": "200 - OK",
+          "ping": 1650,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-08 10:34:19.775",
+          "msg": "getaddrinfo ENOTFOUND www.reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 09:34:49.370",
+          "msg": "200 - OK",
+          "ping": 1575,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-08 09:33:49.249",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 62,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 01:34:54.131",
+          "msg": "200 - OK",
+          "ping": 2071,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-08 01:33:54.116",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-08 00:35:28.142",
+          "msg": "200 - OK",
+          "ping": 688,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-08 00:34:28.101",
+          "msg": "getaddrinfo ENOTFOUND www.reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-07 14:34:49.452",
+          "msg": "200 - OK",
+          "ping": 1666,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-07 14:33:49.409",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-07 11:34:51.483",
+          "msg": "200 - OK",
+          "ping": 1107,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-07 11:33:51.469",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-07 09:34:51.308",
+          "msg": "200 - OK",
+          "ping": 1325,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-07 09:33:51.285",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-07 01:35:05.147",
+          "msg": "200 - OK",
+          "ping": 2476,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-07 01:34:05.105",
+          "msg": "getaddrinfo ENOTFOUND www.reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-06 23:35:00.105",
+          "msg": "200 - OK",
+          "ping": 1660,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-06 23:34:00.089",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-06 18:34:46.370",
+          "msg": "200 - OK",
+          "ping": 1645,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 0,
+          "time": "2025-04-06 18:33:46.354",
+          "msg": "getaddrinfo ENOTFOUND reddit.com",
+          "ping": "-",
+          "duration": 61,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 1,
+          "status": 1,
+          "time": "2025-04-06 17:35:11.435",
+          "msg": "200 - OK",
+          "ping": 1692,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "poor"
+        }
+      ],
+      "important_heartbeats_count": 500,
+      "tags": [],
+      "notification_ids": [],
+      "weight": 2000,
+      "accepted_statuscodes": ["200-299"],
+      "maxredirects": 10,
+      "dns_resolve_type": "A",
+      "dns_resolve_server": "1.1.1.1",
+      "status_changes_count": 0,
+      "last_status_change": "-",
+      "ping_stability": 11713.05,
+      "logs": [
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:22:57.466",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:21:55.864",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:20:55.006",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:19:53.902",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:18:51.499",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:17:49.931",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:16:48.329",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:15:46.747",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:14:44.445",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:13:42.822",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:12:40.433",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:11:39.347",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:10:36.908",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:09:35.234",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:08:33.591",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:07:31.983",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:06:30.393",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:05:28.753",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:04:27.869",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:03:27.006",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:02:25.322",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:01:23.716",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 19:00:21.336",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:59:19.735",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:58:17.625",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:57:15.993",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:56:14.361",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:55:12.752",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:54:11.049",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:53:09.922",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:52:08.306",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:51:07.101",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:50:05.474",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:49:03.806",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:48:02.145",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:47:00.569",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:45:58.941",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:44:57.211",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:43:55.581",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:42:53.889",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:41:52.232",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:40:50.629",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:39:49.031",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:38:48.148",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:37:47.277",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:36:46.418",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:35:44.844",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:34:43.213",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:33:42.360",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:32:41.452",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:31:39.796",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:30:38.085",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:29:37.195",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:28:35.604",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:27:34.731",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:26:33.866",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:25:31.471",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:24:30.527",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:23:28.912",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:22:28.048",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:21:26.390",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:20:24.744",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:19:23.088",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:18:21.721",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:17:20.849",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:16:19.234",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:15:17.613",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:14:15.927",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:13:14.259",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:12:12.600",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:11:11.704",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:10:10.549",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:09:08.934",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:08:08.305",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:07:07.137",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:06:05.255",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:05:04.151",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:04:02.531",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:03:00.851",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:01:59.257",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 18:00:58.329",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:59:57.160",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:58:55.550",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:57:54.704",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:56:53.589",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:55:51.949",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:54:50.312",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:53:48.725",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:52:47.552",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:51:46.425",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:50:44.737",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:49:43.095",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:48:41.942",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:47:40.283",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:46:38.580",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:45:36.935",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:44:35.751",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:43:34.110",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:42:33.250",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 17:41:31.379",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 15:35:09.224",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-08 15:34:09.184",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 11:34:53.895",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-08 11:33:53.877",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 10:35:19.812",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-08 10:34:19.775",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 09:34:49.370",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-08 09:33:49.249",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 01:34:54.131",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-08 01:33:54.116",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-08 00:35:28.142",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-08 00:34:28.101",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-07 14:34:49.452",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-07 14:33:49.409",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-07 11:34:51.483",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-07 11:33:51.469",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-07 09:34:51.308",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-07 09:33:51.285",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-07 01:35:05.147",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-07 01:34:05.105",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-06 23:35:00.105",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-06 23:34:00.089",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-06 18:34:46.370",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-06 18:33:46.354",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-06 17:35:11.435",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-06 17:34:11.399",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-06 12:34:49.596",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-06 12:33:49.580",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-06 11:35:25.085",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-06 11:34:25.047",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-06 10:34:53.828",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-06 10:33:53.809",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-04-06 09:17:20.250",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-04-06 08:32:54.783",
+          "message": "getaddrinfo EAI_AGAIN reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-13 05:24:32.800",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-13 05:23:32.761",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-13 04:24:26.646",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-13 04:23:26.633",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 23:24:20.679",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 23:23:20.666",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 22:24:26.735",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 22:23:26.720",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 20:24:41.845",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 20:23:41.802",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 19:25:01.390",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 19:24:01.350",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 16:24:40.966",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 16:23:40.952",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 12:24:22.218",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 12:23:22.205",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 11:24:34.428",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 11:23:34.416",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 10:36:22.139",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 10:35:20.801",
+          "message": "Request failed with status code 504"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 10:24:27.345",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 10:23:27.330",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 03:24:35.003",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 03:23:34.990",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-12 00:24:21.472",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-12 00:23:21.458",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-11 20:24:38.335",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-11 20:23:38.293",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-11 19:24:46.943",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-11 19:23:46.929",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-11 17:55:01.321",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-11 17:54:01.305",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-10 16:09:39.170",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-10 16:07:41.163",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-10 16:05:30.931",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-10 16:03:32.923",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-10 14:21:45.187",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-10 14:17:49.174",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-10 13:27:54.963",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-10 13:23:58.952",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-09 14:18:43.722",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-09 14:16:45.717",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-09 14:03:27.726",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-09 14:01:29.720",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-09 13:59:40.906",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-09 13:55:44.896",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-09 12:59:28.419",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-09 12:57:30.412",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-07 14:10:00.916",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-07 14:08:02.910",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-07 14:06:07.566",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-07 14:04:09.557",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-06 13:06:15.744",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-06 13:05:15.220",
+          "message": "Request failed with status code 500"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-06 02:59:23.414",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-06 02:58:23.031",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 16:40:20.664",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 16:39:20.112",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 15:11:05.619",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 15:09:07.612",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 15:05:22.884",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 14:53:34.857",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 14:49:50.590",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 14:32:08.545",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 14:30:13.155",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 14:18:25.125",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 14:16:37.101",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 14:12:41.090",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 14:10:54.158",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 13:33:32.059",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 13:31:35.071",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 13:23:43.050",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 13:12:50.131",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 13:10:52.125",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 12:56:53.306",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 12:54:55.299",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 05:14:38.524",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 05:11:02.315",
+          "message": "getaddrinfo EAI_AGAIN www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-05 04:56:43.565",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-05 04:52:47.551",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-04 02:58:59.101",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-04 02:57:47.141",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-03 17:51:19.747",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-03 17:50:18.108",
+          "message": "Request failed with status code 504"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-03 14:46:03.069",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-03 14:45:02.517",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-03 13:00:39.751",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-03 12:58:41.745",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-03 08:03:19.239",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-03 08:02:18.694",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-02 19:36:30.735",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-02 19:35:29.420",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-02 14:40:09.832",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-02 14:38:11.827",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-02 14:34:34.339",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-02 14:28:40.324",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-02 14:26:46.449",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-02 14:20:52.434",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-02 14:18:57.399",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-02 14:16:59.394",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-02 14:01:35.450",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2025-01-02 13:57:39.437",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2025-01-02 09:43:09.474",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-02 13:38:03.583",
+          "message": "getaddrinfo EAI_AGAIN reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-02 12:03:30.674",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-02 12:02:30.662",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-02 07:03:50.895",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-02 07:02:50.881",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-02 03:03:42.181",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-02 03:02:42.169",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-02 01:03:32.706",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-02 01:02:32.695",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-02 00:03:47.935",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-02 00:02:47.898",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 22:03:35.955",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 22:02:35.943",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 18:04:00.009",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 18:02:59.970",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 17:03:23.717",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 17:02:23.703",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 16:03:53.983",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 16:02:53.946",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 14:03:46.287",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 14:02:46.274",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 06:03:36.697",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 06:02:36.685",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 04:03:35.962",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 04:02:35.951",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 02:03:37.774",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 02:02:37.741",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-11-01 00:03:47.126",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-11-01 00:02:47.114",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-31 23:04:13.521",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-31 23:03:13.484",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-31 19:03:36.783",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-31 19:02:36.770",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-31 14:03:28.445",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-31 14:02:28.431",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-31 10:03:38.605",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-31 10:02:38.593",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-31 07:03:54.295",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-31 07:02:54.259",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-31 06:04:19.826",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-31 06:03:19.791",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-31 05:03:52.163",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-31 05:02:52.127",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-30 16:04:03.281",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-30 16:03:03.248",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-30 14:33:52.595",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-30 14:32:51.526",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-30 13:03:30.731",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-30 13:02:30.718",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-30 11:03:30.667",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-30 11:02:30.655",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-30 05:03:42.064",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-30 05:02:42.051",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-30 03:03:47.500",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-30 03:02:47.461",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-30 01:03:47.851",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-30 01:02:47.837",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-29 20:04:17.002",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-29 20:03:16.969",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-29 19:03:37.079",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-29 19:02:37.066",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-29 14:03:43.957",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-29 14:02:43.945",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-29 12:03:26.354",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-29 12:02:26.267",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-29 08:03:27.632",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-29 08:02:27.619",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-29 04:03:29.599",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-29 04:02:29.587",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 22:03:34.489",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 22:02:34.455",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 21:03:48.425",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 21:02:48.387",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 20:04:07.123",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 20:03:07.088",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 19:03:24.750",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 19:02:24.737",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 18:03:50.994",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 18:02:50.980",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 15:03:23.475",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 15:02:23.462",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 06:03:32.863",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 06:02:32.824",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-28 04:03:28.000",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-28 04:02:27.988",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 18:25:23.602",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 18:24:11.895",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 18:03:30.900",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 18:02:30.887",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 15:03:43.201",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 15:02:43.188",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 14:33:24.904",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 14:31:29.535",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 14:27:11.624",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 14:25:13.615",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 13:57:04.870",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 13:55:06.865",
+          "message": "timeout by AbortSignal (48s)"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 13:51:54.023",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 13:50:21.559",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 12:03:50.492",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 12:02:50.479",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 11:03:26.058",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 11:02:26.045",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 08:03:50.849",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 08:02:50.837",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 03:03:42.346",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 03:02:42.334",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-27 01:03:48.568",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-27 01:02:48.527",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 20:03:27.114",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 20:02:27.101",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 17:39:39.281",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 17:38:27.660",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 17:03:32.096",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 17:02:32.083",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 13:47:36.374",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 13:46:25.205",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 11:03:28.291",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 11:02:28.277",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 09:03:26.843",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 09:02:26.829",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 08:13:09.201",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 08:10:08.198",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 08:09:05.625",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 08:08:05.294",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 08:05:00.927",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 08:04:00.570",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 08:02:58.960",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 08:01:48.754",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:58:35.754",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:57:33.017",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:55:28.405",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:54:28.062",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:53:25.764",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:52:25.435",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:46:05.085",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:44:55.320",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:43:53.685",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:42:53.356",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:36:40.818",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:34:32.446",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:30:23.557",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:27:21.042",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:26:18.157",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:19:12.731",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:18:02.942",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:15:00.461",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-26 07:13:55.854",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-26 07:00:19.656",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-25 19:03:42.492",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-25 19:02:42.456",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-25 15:03:37.531",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-25 15:02:37.519",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-25 13:36:31.910",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-25 13:35:21.056",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-25 03:03:23.694",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-25 03:02:23.682",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-25 02:03:54.039",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-25 02:02:54.027",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 21:50:23.186",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 21:48:07.694",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 20:03:49.016",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 20:02:49.004",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 18:03:25.475",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 18:02:25.462",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 16:03:26.912",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 16:02:26.900",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 12:03:39.858",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 12:02:39.846",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 05:03:27.253",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 05:02:27.241",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 03:03:26.601",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 03:02:26.588",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-24 01:03:29.619",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-24 01:02:29.605",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 23:03:32.551",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 23:02:32.515",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 22:03:56.472",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 22:02:56.438",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 16:03:27.694",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 16:02:27.681",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 15:15:54.546",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 15:14:54.216",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 15:10:47.038",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 15:09:46.702",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 15:03:37.756",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 15:02:37.744",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 11:03:50.369",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 11:02:50.332",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 10:04:00.992",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 10:03:00.955",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 07:03:50.144",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 07:02:50.109",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 06:03:25.289",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 06:02:25.276",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-23 00:03:41.130",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-23 00:02:41.118",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-22 20:04:02.413",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-22 20:03:02.379",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-22 09:03:29.906",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-22 09:02:29.893",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-22 00:03:51.341",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-22 00:02:51.329",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-21 17:03:29.573",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-21 17:02:29.561",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-21 14:03:43.077",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-21 14:02:43.065",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-21 11:03:43.268",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-21 11:02:43.254",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-21 10:03:24.821",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-21 10:02:24.809",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-21 07:03:39.451",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-21 07:02:39.440",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-21 06:09:54.518",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-21 06:08:53.477",
+          "message": "Request failed with status code 504"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-21 00:03:40.632",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-21 00:02:40.620",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 23:04:08.530",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 23:03:08.485",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 19:03:35.042",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 19:02:35.008",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 16:03:32.100",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 16:02:32.087",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 12:04:02.633",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 12:03:02.598",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 11:03:34.133",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 11:02:34.121",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 09:03:34.821",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 09:02:34.809",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 04:03:58.615",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 04:02:58.579",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 03:38:10.338",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 03:37:09.816",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 03:03:24.137",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 03:02:24.124",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-20 00:34:24.602",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-20 00:33:13.135",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 18:03:26.766",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 18:02:26.755",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 15:03:42.946",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 15:02:42.934",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 13:03:28.754",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 13:02:28.741",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 12:37:53.844",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 12:36:42.219",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 07:03:28.603",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 07:02:28.590",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 06:03:58.361",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 06:02:58.293",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 04:03:29.865",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 04:02:29.852",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-19 01:03:32.605",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-19 01:02:32.564",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 23:03:28.928",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 23:02:28.915",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 21:03:29.320",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 21:02:29.307",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 19:03:28.841",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 19:02:28.828",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 15:03:52.443",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 15:02:52.408",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 11:03:27.311",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 11:02:27.299",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 09:03:41.155",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 09:02:41.141",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 07:03:42.605",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 07:02:42.590",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 04:03:26.466",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 04:02:26.452",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-18 01:04:10.643",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-18 01:03:10.608",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 22:03:35.900",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 22:02:35.888",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 21:03:58.734",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 21:02:58.701",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 17:03:29.733",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 17:02:29.721",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 15:03:25.111",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 15:02:25.098",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 14:03:46.042",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 14:02:46.030",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 11:03:26.472",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 11:02:26.458",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 07:03:39.629",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 07:02:39.618",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-17 01:03:42.790",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-17 01:02:42.754",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 20:03:38.112",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 20:02:38.077",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 19:03:47.121",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 19:02:47.084",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 15:21:57.197",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 15:20:56.867",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 15:15:47.474",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 15:14:47.137",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 15:10:41.088",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 15:09:40.008",
+          "message": "Request failed with status code 401"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 15:03:30.181",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 15:02:30.169",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 12:43:57.925",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 12:42:45.525",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 12:03:49.799",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 12:02:49.787",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 11:42:18.257",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 11:41:06.648",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 09:03:51.170",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 09:02:51.134",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 06:03:28.410",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 06:02:28.398",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 04:03:25.121",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 04:02:25.110",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-16 02:03:29.420",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-16 02:02:29.408",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-15 19:03:38.374",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-15 19:02:38.362",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-15 18:04:01.779",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-15 18:03:01.743",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-15 15:03:30.247",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-15 15:02:30.235",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-15 11:03:39.470",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-15 11:02:39.458",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-15 10:03:50.439",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-15 10:02:50.406",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-15 02:03:28.439",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-15 02:02:28.427",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 22:03:54.828",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 22:02:54.787",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 19:03:33.827",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 19:02:33.815",
+          "message": "getaddrinfo ENOTFOUND reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 13:32:48.121",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 13:31:36.780",
+          "message": "Parse Error: Invalid character in chunk size"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 11:03:42.421",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 11:02:42.386",
+          "message": "getaddrinfo ENOTFOUND www.reddit.com"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:37:48.066",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:36:47.990",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:30:40.443",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:28:40.301",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:27:39.400",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:25:39.257",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:22:32.498",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:21:32.425",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:20:31.556",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:19:31.483",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:17:28.884",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:16:28.814",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:14:26.867",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:13:26.798",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:09:19.028",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:08:18.954",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 08:07:17.897",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 08:06:17.792",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 07:59:10.580",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 07:58:10.506",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 07:57:09.638",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 07:55:09.493",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 07:52:03.304",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 07:49:03.094",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 07:45:58.604",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 07:39:58.174",
+          "message": "Request failed with status code 503"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 05:29:24.623",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 05:28:23.740",
+          "message": "Request failed with status code 504"
+        },
+        {
+          "name": "Reddit",
+          "status": "UP",
+          "time": "2024-10-14 05:27:22.638",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Reddit",
+          "status": "DOWN",
+          "time": "2024-10-14 05:25:21.968",
+          "message": "Request failed with status code 503"
+        }
+      ],
+      "ping_quality": "poor",
+      "health_score": 69.7
+    },
+    {
+      "id": 3,
+      "name": "Techie Goose",
+      "url": "https://techiegoose.com",
+      "type": "http",
+      "description": "-",
+      "method": "GET",
+      "status": 1,
+      "active": true,
+      "maintenance": false,
+      "interval": 60,
+      "timeout": 48,
+      "avg_ping": 105,
+      "avg_ping_calculated": 103.86725663716814,
+      "uptime": {
+        "24h": 0.9979128619154277,
+        "24h_percent": 99.79,
+        "720h": 0.9965455696931315,
+        "720h_percent": 99.65,
+        "24h_quality": "good",
+        "720h_quality": "good"
+      },
+      "cert_info": {
+        "valid": true,
+        "subject_cn": "techiegoose.com",
+        "subject_c": "-",
+        "subject_st": "-",
+        "subject_l": "-",
+        "subject_o": "-",
+        "issuer_cn": "WE1",
+        "issuer_c": "US",
+        "issuer_o": "Google Trust Services",
+        "subject_alt_name": "DNS:techiegoose.com, DNS:*.techiegoose.com",
+        "info_access": {
+          "OCSP - URI": ["http://o.pki.goog/s/we1/yxw"],
+          "CA Issuers - URI": ["http://i.pki.goog/we1.crt"]
+        },
+        "valid_from": "-",
+        "valid_to": "-",
+        "days_remaining": "-",
+        "fingerprint": "31:01:F6:47:19:F7:AA:0C:41:5F:5E:B3:E4:89:B8:63:42:A1:CC:91",
+        "serial_number": "CB1CF91CF7B60FC50DAD37D6A4645653",
+        "signature_algorithm": "-",
+        "expiry_status": "-"
+      },
+      "recent_heartbeats": [
+        {
+          "id": 323907,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:43:30.939",
+          "msg": "200 - OK",
+          "ping": 109,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323909,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:44:31.051",
+          "msg": "200 - OK",
+          "ping": 104,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323911,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:45:31.160",
+          "msg": "200 - OK",
+          "ping": 102,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323913,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:46:31.266",
+          "msg": "200 - OK",
+          "ping": 112,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323915,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:47:31.381",
+          "msg": "200 - OK",
+          "ping": 108,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323917,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:48:31.493",
+          "msg": "200 - OK",
+          "ping": 106,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323919,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:49:31.603",
+          "msg": "200 - OK",
+          "ping": 114,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323921,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:50:31.722",
+          "msg": "200 - OK",
+          "ping": 115,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323923,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:51:31.844",
+          "msg": "200 - OK",
+          "ping": 108,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": 323925,
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 17:52:31.958",
+          "msg": "200 - OK",
+          "ping": 111,
+          "duration": 60,
+          "important": false,
+          "down_count": 0,
+          "ping_quality": "good"
+        }
+      ],
+      "heartbeats_count": 100,
+      "important_heartbeats": [
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 12:34:55.049",
+          "msg": "200 - OK",
+          "ping": 104,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-08 12:33:55.033",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 04:35:00.349",
+          "msg": "200 - OK",
+          "ping": 105,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-08 04:34:00.332",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-08 03:34:53.740",
+          "msg": "200 - OK",
+          "ping": 118,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-08 03:33:53.721",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-07 18:34:58.488",
+          "msg": "200 - OK",
+          "ping": 99,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "excellent"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-07 18:33:58.473",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-07 17:34:52.149",
+          "msg": "200 - OK",
+          "ping": 108,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-07 17:33:52.133",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-07 10:35:06.406",
+          "msg": "200 - OK",
+          "ping": 98,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "excellent"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-07 10:34:06.389",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-07 08:34:53.333",
+          "msg": "200 - OK",
+          "ping": 99,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "excellent"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-07 08:33:53.316",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-07 01:35:07.629",
+          "msg": "200 - OK",
+          "ping": 114,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-07 01:34:07.605",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-07 00:35:01.403",
+          "msg": "200 - OK",
+          "ping": 101,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-07 00:34:01.385",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-06 22:34:49.678",
+          "msg": "200 - OK",
+          "ping": 86,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "excellent"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-06 22:33:49.661",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-06 13:34:51.952",
+          "msg": "200 - OK",
+          "ping": 115,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-06 13:33:51.937",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-06 09:35:20.357",
+          "msg": "200 - OK",
+          "ping": 106,
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 0,
+          "time": "2025-04-06 09:34:20.342",
+          "msg": "getaddrinfo ENOTFOUND techiegoose.com",
+          "ping": "-",
+          "duration": 60,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "-"
+        },
+        {
+          "id": "-",
+          "monitor_id": 3,
+          "status": 1,
+          "time": "2025-04-06 09:22:34.252",
+          "msg": "200 - OK",
+          "ping": 143,
+          "duration": 0,
+          "important": true,
+          "down_count": 0,
+          "ping_quality": "good"
+        }
+      ],
+      "important_heartbeats_count": 25,
+      "tags": [],
+      "notification_ids": [],
+      "weight": 2000,
+      "accepted_statuscodes": ["200-299"],
+      "maxredirects": 10,
+      "dns_resolve_type": "A",
+      "dns_resolve_server": "1.1.1.1",
+      "status_changes_count": 0,
+      "last_status_change": "-",
+      "ping_stability": 11.86,
+      "logs": [
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:22:41.681",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:21:41.574",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:20:41.467",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:19:41.371",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:18:41.265",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:17:41.175",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:16:41.096",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:15:40.992",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:14:40.887",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:13:40.790",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:12:40.677",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:11:40.579",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:10:40.484",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:09:40.397",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:08:40.301",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:07:40.153",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:06:40.061",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:05:39.958",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:04:39.846",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:03:39.738",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:02:39.626",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:01:39.535",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 19:00:39.435",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:59:39.333",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:58:39.238",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:57:39.131",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:56:39.030",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:55:38.922",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:54:38.805",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:53:38.705",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:52:38.600",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:51:38.500",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:50:38.388",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:49:38.278",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:48:38.175",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:47:38.071",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:46:37.980",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:45:37.879",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:44:37.781",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:43:37.671",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:42:37.589",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:41:37.513",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:40:37.406",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:39:37.301",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:38:37.196",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:37:37.085",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:36:36.984",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:35:36.887",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:34:36.759",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:33:36.661",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:32:36.543",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:31:36.438",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:30:36.327",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:29:36.210",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:28:36.080",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:27:35.965",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:26:35.848",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:25:35.740",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:24:35.635",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:23:35.534",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:22:35.410",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:21:35.291",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:20:35.181",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:19:35.072",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:18:34.965",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:17:34.840",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:16:34.722",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:15:34.616",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:14:34.504",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:13:34.390",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:12:34.288",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:11:34.138",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:10:34.015",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:09:33.902",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:08:33.791",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:07:33.680",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:06:33.559",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:05:33.432",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:04:33.308",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:03:33.193",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:02:33.082",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:01:32.968",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 18:00:32.857",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:59:32.750",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:58:32.632",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:57:32.525",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:56:32.411",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:55:32.304",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:54:32.187",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:53:32.074",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:52:31.958",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:51:31.844",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:50:31.722",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:49:31.603",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:48:31.493",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:47:31.381",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:46:31.266",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:45:31.160",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:44:31.051",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 17:43:30.939",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 12:34:55.049",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-08 12:33:55.033",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 04:35:00.349",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-08 04:34:00.332",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-08 03:34:53.740",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-08 03:33:53.721",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-07 18:34:58.488",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-07 18:33:58.473",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-07 17:34:52.149",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-07 17:33:52.133",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-07 10:35:06.406",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-07 10:34:06.389",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-07 08:34:53.333",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-07 08:33:53.316",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-07 01:35:07.629",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-07 01:34:07.605",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-07 00:35:01.403",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-07 00:34:01.385",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-06 22:34:49.678",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-06 22:33:49.661",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-06 13:34:51.952",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-06 13:33:51.937",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-06 09:35:20.357",
+          "message": "200 - OK"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "DOWN",
+          "time": "2025-04-06 09:34:20.342",
+          "message": "getaddrinfo ENOTFOUND techiegoose.com"
+        },
+        {
+          "name": "Techie Goose",
+          "status": "UP",
+          "time": "2025-04-06 09:22:34.252",
+          "message": "200 - OK"
+        }
+      ],
+      "ping_quality": "good",
+      "health_score": 96.7
+    }
+  ],
+  "monitors_count": 2,
+  "up_monitors": [
+    {
+      "id": 1,
+      "name": "Reddit",
+      "url": "https://reddit.com",
+      "status": 1,
+      "active": true,
+      "type": "http",
+      "avg_ping": 5064.088571428571,
+      "ping_quality": "poor",
+      "uptime_24h": 99.57,
+      "health_score": 69.7
+    },
+    {
+      "id": 3,
+      "name": "Techie Goose",
+      "url": "https://techiegoose.com",
+      "status": 1,
+      "active": true,
+      "type": "http",
+      "avg_ping": 103.86725663716814,
+      "ping_quality": "good",
+      "uptime_24h": 99.79,
+      "health_score": 96.7
+    }
+  ],
+  "down_monitors": [],
+  "maintenance_monitors": [],
+  "up_monitors_count": 2,
+  "down_monitors_count": 0,
+  "maintenance_monitors_count": 0,
+  "up_percentage": 100,
+  "timestamp": "2025-04-08T19:23:03.995118",
+  "avg_health_score": 83.2,
+  "monitor_types": ["http"],
+  "monitors_by_type": {
+    "http": 2
+  },
+  "avg_response_time": 2583.98
+}

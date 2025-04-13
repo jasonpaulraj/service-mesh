@@ -1,0 +1,55 @@
+name: Deploy to Cloud Server
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - production
+          - staging
+          - development
+
+jobs:
+  deploy:
+    name: Deploy to Server
+    runs-on: ubuntu-latest
+    environment: ${{ (github.ref == 'refs/heads/main' && 'production') || (github.ref == 'refs/heads/develop' && 'staging') || (github.event.inputs.environment || 'development') }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+          if_key_exists: replace
+      
+      - name: Deploy to server
+        run: |
+          echo "Deploying to ${{ env.ENVIRONMENT_NAME }} environment on ${{ vars.DEPLOY_SERVER }}"
+          ssh -o StrictHostKeyChecking=no ${{ vars.SSH_USER }}@${{ vars.DEPLOY_SERVER }} << 'EOF'
+            cd ${{ vars.APP_PATH }}
+            git pull
+            
+            # Set environment profile based on deployment target
+            export PROFILE=${{ env.ENVIRONMENT_NAME }}
+            
+            # Stop and rebuild containers
+            docker-compose down
+            docker-compose up --build -d
+            
+            # Run migrations if needed
+            docker-compose exec -T fastapi alembic upgrade head
+            
+            echo "Deployment completed successfully"
+          EOF

@@ -18,7 +18,6 @@ ServiceMesh integrates with multiple monitoring and infrastructure management to
 
 ## 🎬 Demo
 
-
 ![{766D7B58-E841-4019-BE6D-DADE314D3D3B}](https://github.com/user-attachments/assets/022339c8-f0b5-404d-bdeb-0b793eaa3009)
 
 ## ✨ Features
@@ -100,17 +99,6 @@ The development setup uses uvicorn with the --reload flag, so any changes to you
 
 ---
 
-## 🔄 Using Docker Compose Services
-
-The docker-compose.yml file includes commented sections for starting additional monitoring services:
-
-- Uptime Kuma : Uncomment the uptime-kuma service to start a local instance at http://localhost:3001
-- Prometheus : Uncomment the prometheus service to start a local instance at http://localhost:9090
-- Grafana : Uncomment the grafana service to start a local instance at http://localhost:3000
-  To enable these services, uncomment the relevant sections in docker-compose.yml and also uncomment the corresponding volume definitions at the bottom of the file.
-
----
-
 ## 💾 Database Management
 
 ### Running Database Migrations
@@ -143,7 +131,7 @@ This creates the initial migration environment with a migrations folder and alem
 ##### 3. Generate your first migration:
 
 ```bash
-docker compose exec api alembic revision --autogenerate -m "fresh migration"
+docker compose exec fastapi alembic revision --autogenerate -m "fresh migration"
 ```
 
 This command scans your SQLAlchemy models and generates migration scripts to create the corresponding database schema.

@@ -24,4 +24,8 @@ COPY . .
 # Now install the package in editable mode
 RUN pip install --no-cache-dir -e .
 
+# Add this before the CMD
+RUN alembic revision --autogenerate -m "fresh migration" || echo "Migration already exists"
+
+# Existing CMD
 CMD alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port ${APP_PORT:-8000} --reload
